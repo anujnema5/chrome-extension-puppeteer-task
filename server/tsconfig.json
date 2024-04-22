@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ES6",
+        "lib": [
+            "ES5",
+            "ES6",
+            "DOM"
+        ],
+        "allowJs": true,
+        "outDir": "./dist/",
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "composite": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "strictNullChecks": true
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.js",
+        "**/*.mjs",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.json",
+        ".contentlayer/generated",
+        ".contentlayer/generated/**/*.json",
+        ".next/types/**/*.ts",
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

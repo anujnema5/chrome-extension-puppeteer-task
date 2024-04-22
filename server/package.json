@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7",
+    "puppeteer": "^22.6.5",
+    "socket.io": "^4.7.5"
+  }
+}
